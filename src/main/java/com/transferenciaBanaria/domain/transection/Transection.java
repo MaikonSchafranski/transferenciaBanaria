@@ -1,6 +1,5 @@
 package com.transferenciaBanaria.domain.transection;
 
-
 import com.transferenciaBanaria.domain.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,7 +9,6 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
 
 @Entity(name = "transections")
 @Table(name = "transections")

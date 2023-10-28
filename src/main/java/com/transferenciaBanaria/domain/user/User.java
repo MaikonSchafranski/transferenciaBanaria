@@ -8,7 +8,6 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
-
 @Entity(name = "users")
 @Table(name = "users")
 @Getter
@@ -19,7 +18,7 @@ import java.math.BigDecimal;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Long id;
+    private Long id;
 
     private String fistName;
     private String lastName;
